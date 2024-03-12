@@ -15,7 +15,7 @@
 
 body {
   background-color: #242427;
-  height: 1500px;
+  height: 2700px;
 }
 body .btn1 {
   border: none;
@@ -59,7 +59,6 @@ body .container .textContainer {
   padding: 5%;
   padding-left: 0;
   width: 42%;
-  height: 680px;
   border-radius: 20px;
 }
 body .container .textContainer h1 {
@@ -80,17 +79,20 @@ body .container .textContainer .btn2 {
 body .container .imgContainer {
   background-color: #35353d;
   width: 42%;
-  height: 680px;
   border-radius: 20px;
 }
 body .logos {
   width: 84%;
-  height: 200px;
   margin: auto;
   border-top: #35353d 3px solid;
   border-bottom: #35353d 3px solid;
   padding: 3.5% 8% 3.5% 8%;
 }
-body .logos img {
-  margin: auto;
+body .justImg {
+  display: flex;
+  background-color: #FDF5DF;
+  width: 80%;
+  border-radius: 30px;
+  margin: 5% auto 5%;
+  padding: 5% 0 0 0;
 }/*# sourceMappingURL=main.css.map */
