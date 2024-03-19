@@ -11,6 +11,8 @@
 :root {
   --btn1: #b47ebe;
   --startedBtn: #ffe07a;
+  --textColor: #707070;
+  --textFontsize: 23px;
 }
 
 body {
@@ -68,8 +70,8 @@ body .container .textContainer h1 {
 }
 body .container .textContainer p {
   margin: 12% 0;
-  color: #707070;
-  font-size: 18px;
+  color: var(--textColor);
+  font-size: var(--textFontsize);
   padding-right: 150px;
 }
 body .container .textContainer .btn2 {
@@ -93,6 +95,103 @@ body .justImg {
   background-color: #FDF5DF;
   width: 80%;
   border-radius: 30px;
-  margin: 5% auto 5%;
+  margin: 5% auto 10%;
   padding: 5% 0 0 0;
+}
+body .iconDiv {
+  display: flex;
+  justify-content: space-between;
+  width: 76%;
+  height: 340px;
+  margin: auto;
+}
+body .iconDiv .cardDiv {
+  width: 35%;
+  height: 100%;
+  text-align: center;
+  justify-content: space-around;
+}
+body .iconDiv .cardDiv .icon1 {
+  margin: 15% 0 6%;
+}
+body .iconDiv .cardDiv .icon1 img {
+  width: 70px;
+  height: 70px;
+  left: 120px;
+  gap: 0px;
+  opacity: 0px;
+}
+body .iconDiv .cardDiv .cardHeader {
+  color: white;
+  width: 100%;
+  margin: auto;
+  font-weight: bold;
+  font-size: var(--font-size);
+  margin-bottom: 2%;
+}
+body .iconDiv .cardDiv .text1 {
+  color: var(--textColor);
+  width: 50%;
+  margin: auto;
+  font-size: var(--textFontSize);
+}
+body .iconDiv .coinDiv {
+  width: 35%;
+  height: 100%;
+  text-align: center;
+  justify-content: space-around;
+}
+body .iconDiv .coinDiv .icon2 {
+  margin: 15% 0 6%;
+}
+body .iconDiv .coinDiv .icon2 img {
+  width: 70px;
+  height: 70px;
+  left: 120px;
+  gap: 0px;
+  opacity: 0px;
+}
+body .iconDiv .coinDiv .coinHeader {
+  color: white;
+  width: 100%;
+  margin: auto;
+  font-weight: bold;
+  font-size: var(--font-size);
+  margin-bottom: 2%;
+}
+body .iconDiv .coinDiv .text2 {
+  color: var(--textColor);
+  width: 50%;
+  margin: auto;
+  font-size: var(--textFontSize);
+}
+body .iconDiv .walletDiv {
+  width: 35%;
+  height: 100%;
+  text-align: center;
+  justify-content: space-around;
+}
+body .iconDiv .walletDiv .icon3 {
+  margin: 15% 0 6%;
+}
+body .iconDiv .walletDiv .icon3 img {
+  width: 70px;
+  height: 70px;
+  left: 120px;
+  gap: 0px;
+  opacity: 0px;
+}
+body .iconDiv .walletDiv .walletHeader {
+  color: white;
+  width: 100%;
+  margin: auto;
+  font-weight: bold;
+  font-size: var(--font-size);
+  margin-bottom: 2%;
+}
+body .iconDiv .walletDiv .text3 {
+  color: var(--textColor);
+  width: 50%;
+  margin: auto;
+  font-size: var(--textFontSize);
 }/*# sourceMappingURL=main.css.map */

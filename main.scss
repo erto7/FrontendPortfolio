@@ -12,6 +12,8 @@
 :root{
     --btn1: #b47ebe;
     --startedBtn: #ffe07a;
+    --textColor: #707070;
+    --textFontsize: 23px;
 }
 
 body{
@@ -69,8 +71,8 @@ header{
         }
         p{
             margin: 12% 0;
-            color: #707070;
-            font-size: 18px;
+            color: var(--textColor);
+            font-size: var(--textFontsize);
             padding-right: 150px;            
         }
         .btn2{
@@ -97,9 +99,110 @@ header{
     background-color: #FDF5DF;
     width: 80%;
     border-radius: 30px;
-    margin: 5% auto 5%;
-    padding: 5% 0 0 0;
-    
+    margin: 5% auto 10%;
+    padding: 5% 0 0 0;    
+}
+
+.iconDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 76%;
+    height: 340px;
+    margin: auto;
+
+    .cardDiv {
+        width: 35%;
+        height: 100%;
+        text-align: center;
+        justify-content: space-around;
+        .icon1{
+            img{
+                width: 70px;
+                height: 70px;
+                left: 120px;
+                gap: 0px;
+                opacity: 0px;
+                }
+            margin: 15% 0 6%;
+        }
+        .cardHeader{
+            color: white;
+            width: 100%;
+            margin: auto;
+            font-weight: bold;
+            font-size: var(--font-size);
+            margin-bottom: 2%;
+
+        }
+        .text1{
+            color: var(--textColor);
+            width: 50%;
+            margin: auto;
+            font-size: var(--textFontSize);
+        }
+    }
+    .coinDiv {
+        width: 35%;
+        height: 100%;
+        text-align: center;
+        justify-content: space-around;
+        .icon2{
+            img{
+                width: 70px;
+                height: 70px;
+                left: 120px;
+                gap: 0px;
+                opacity: 0px;
+                }
+            margin: 15% 0 6%;
+        }
+        .coinHeader{
+            color: white;
+            width: 100%;
+            margin: auto;
+            font-weight: bold;
+            font-size: var(--font-size);
+            margin-bottom: 2%;
+
+        }
+        .text2{
+            color: var(--textColor);
+            width: 50%;
+            margin: auto;
+            font-size: var(--textFontSize);
+        }
+    }
+    .walletDiv {
+        width: 35%;
+        height: 100%;
+        text-align: center;
+        justify-content: space-around;
+        .icon3{
+            img{
+                width: 70px;
+                height: 70px;
+                left: 120px;
+                gap: 0px;
+                opacity: 0px;
+                }
+            margin: 15% 0 6%;
+        }
+        .walletHeader{
+            color: white;
+            width: 100%;
+            margin: auto;
+            font-weight: bold;
+            font-size: var(--font-size);
+            margin-bottom: 2%;
+
+        }
+        .text3{
+            color: var(--textColor);
+            width: 50%;
+            margin: auto;
+            font-size: var(--textFontSize);
+        }
+    }
 }
 height: 2700px;
 }
