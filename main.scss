@@ -10,7 +10,7 @@
 }
 
 :root{
-    --btn1: #b47ebe;
+    --btn1: #BFAFF2;
     --startedBtn: #ffe07a;
     --textColor: #707070;
     --textFontsize: 23px;
@@ -58,7 +58,7 @@ header{
 .container {
     display: flex;
     justify-content: space-around;
-    margin: 4% ;
+    margin: 8.5% ;
     .textContainer {
         padding: 5%;
         padding-left: 0;
@@ -82,12 +82,12 @@ header{
     }
     .imgContainer {
         background-color: #35353d;
-        width: 42%;
+        width: 50%;
         border-radius: 20px;
     }   
 }
 .logos{
-    width: 84%;
+    width: 80%;
     margin: auto;
     border-top: #35353d 3px solid;
     border-bottom: #35353d 3px solid;
@@ -99,7 +99,7 @@ header{
     background-color: #FDF5DF;
     width: 80%;
     border-radius: 30px;
-    margin: 5% auto 10%;
+    margin: 5% auto 5%;
     padding: 5% 0 0 0;    
 }
 
@@ -233,6 +233,38 @@ header{
         }
     }
 }
-height: 3400px;
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 9% ;
+    .textContainer2 {
+        padding: 5%;
+        padding-left: 0;
+        width: 42%;
+        border-radius: 20px;
+        h1{
+            color: white;
+            font-size: 65px;
+            padding-right: 80px;
+        }
+        p{
+            margin: 12% 0;
+            color: var(--textColor);
+            font-size: var(--textFontsize);
+            padding-right: 150px;            
+        }
+        .btn2{
+            margin-top: 9%;
+            background-color: var(--startedBtn);
+        }
+    }
+    .imgContainer2 {
+        width: 50%;
+        border-radius: 20px;
+        margin-top: 40px;
+    }   
+}
+height: 4400px;
 }
 

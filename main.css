@@ -9,7 +9,7 @@
 }
 
 :root {
-  --btn1: #b47ebe;
+  --btn1: #BFAFF2;
   --startedBtn: #ffe07a;
   --textColor: #707070;
   --textFontsize: 23px;
@@ -17,7 +17,7 @@
 
 body {
   background-color: #242427;
-  height: 3400px;
+  height: 4400px;
 }
 body .btn1 {
   border: none;
@@ -55,7 +55,7 @@ body header .btn:hover {
 body .container {
   display: flex;
   justify-content: space-around;
-  margin: 4%;
+  margin: 8.5%;
 }
 body .container .textContainer {
   padding: 5%;
@@ -80,11 +80,11 @@ body .container .textContainer .btn2 {
 }
 body .container .imgContainer {
   background-color: #35353d;
-  width: 42%;
+  width: 50%;
   border-radius: 20px;
 }
 body .logos {
-  width: 84%;
+  width: 80%;
   margin: auto;
   border-top: #35353d 3px solid;
   border-bottom: #35353d 3px solid;
@@ -95,7 +95,7 @@ body .justImg {
   background-color: #FDF5DF;
   width: 80%;
   border-radius: 30px;
-  margin: 5% auto 10%;
+  margin: 5% auto 5%;
   padding: 5% 0 0 0;
 }
 body .iconDiv {
@@ -221,4 +221,35 @@ body .bigText .userPart .nameStars p {
   font-size: 18px;
   color: #2B2B2B;
   opacity: 90%;
+}
+body .container2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 9%;
+}
+body .container2 .textContainer2 {
+  padding: 5%;
+  padding-left: 0;
+  width: 42%;
+  border-radius: 20px;
+}
+body .container2 .textContainer2 h1 {
+  color: white;
+  font-size: 65px;
+  padding-right: 80px;
+}
+body .container2 .textContainer2 p {
+  margin: 12% 0;
+  color: var(--textColor);
+  font-size: var(--textFontsize);
+  padding-right: 150px;
+}
+body .container2 .textContainer2 .btn2 {
+  margin-top: 9%;
+  background-color: var(--startedBtn);
+}
+body .container2 .imgContainer2 {
+  width: 50%;
+  border-radius: 20px;
+  margin-top: 40px;
 }/*# sourceMappingURL=main.css.map */
