@@ -17,7 +17,7 @@
 
 body {
   background-color: #242427;
-  height: 2700px;
+  height: 3400px;
 }
 body .btn1 {
   border: none;
@@ -194,4 +194,31 @@ body .iconDiv .walletDiv .text3 {
   width: 50%;
   margin: auto;
   font-size: var(--textFontSize);
+}
+body .bigText {
+  background-color: #BFAFF2;
+  width: 80%;
+  height: 450px;
+  border-radius: 30px;
+  margin: 5% auto 5%;
+  padding: 5% 15%;
+}
+body .bigText .text {
+  font-size: var(--textFontsize);
+  margin-bottom: 7%;
+  font-weight: bold;
+}
+body .bigText .userPart {
+  display: flex;
+}
+body .bigText .userPart .userPhoto {
+  margin-right: 15px;
+}
+body .bigText .userPart .nameStars {
+  margin-top: 25px;
+}
+body .bigText .userPart .nameStars p {
+  font-size: 18px;
+  color: #2B2B2B;
+  opacity: 90%;
 }/*# sourceMappingURL=main.css.map */

@@ -204,6 +204,35 @@ header{
         }
     }
 }
-height: 2700px;
+
+.bigText{
+    background-color: #BFAFF2;
+    width: 80%;
+    height: 450px;
+    border-radius: 30px;
+    margin: 5% auto 5%;
+    padding: 5% 15%;
+    .text{
+        font-size: var(--textFontsize);
+        margin-bottom: 7%;
+        font-weight: bold;
+    }
+    .userPart{
+        display: flex;
+        .userPhoto{
+            margin-right: 15px;
+        }
+        .nameStars{
+            margin-top: 25px;
+            
+            p{
+                font-size: 18px;
+                color: #2B2B2B;
+                opacity: 90%;
+            }
+        }
+    }
+}
+height: 3400px;
 }
 
